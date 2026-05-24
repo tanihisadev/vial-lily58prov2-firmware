@@ -24,6 +24,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VIAL_KEYBOARD_UID {0x7E, 0xFD, 0xFC, 0x5B, 0x7D, 0x39, 0x48, 0x06}
 
 #define SPLIT_WATCHDOG_ENABLE
+#define DYNAMIC_KEYMAP_LAYER_COUNT 8 // Add more layers
 
 #define SPLIT_WPM_ENABLE   // sync WPM from master to slave for OLED display
 
@@ -94,3 +95,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #    define ENABLE_RGB_MATRIX_MULTISPLASH
 #    define ENABLE_RGB_MATRIX_SOLID_SPLASH
 #    define ENABLE_RGB_MATRIX_SOLID_MULTISPLASH
+
