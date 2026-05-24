@@ -205,8 +205,10 @@ static void render_status_display(void) {
     oled_write_P(PSTR("LAYER\n"), false);
     switch (get_highest_layer(layer_state)) {
         case 0:  oled_write_ln_P(PSTR("BASE "), false); break;
-        case 1:  oled_write_ln_P(PSTR("LOWER"), false); break;
-        case 2:  oled_write_ln_P(PSTR("RAISE"), false); break;
+        case 1:  oled_write_ln_P(PSTR("NUM  "), false); break;
+        case 2:  oled_write_ln_P(PSTR("NAV   "), false); break;
+        case 3: oled_write_ln_P(PSTR("SYM  "), false); break;
+        case 4:  oled_write_ln_P(PSTR("MAUS "), false); break;
         default: oled_write_ln_P(PSTR("?????"), false); break;
     }
 
