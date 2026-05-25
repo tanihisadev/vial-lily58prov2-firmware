@@ -1,7 +1,5 @@
 # Lily58 Vial Firmware
 
----
-
 ## Hardware
 
 | Component       | Detail                                                                  |
@@ -20,8 +18,6 @@
 1. Hold the **BOOT** button on the RP2040, then plug in USB — a `RPI-RP2` drive will appear.
 2. Drag and drop the `.uf2` file onto the drive. The board reboots automatically.
 3. Repeat for the **right half**.
-
-> After first flash, bootmagic is enabled — hold the top-left key while plugging in to enter bootloader without pressing BOOT.
 
 ---
 
