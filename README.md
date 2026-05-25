@@ -7,7 +7,7 @@
 | Component       | Detail                                                                  |
 | -----------------| -------------------------------------------------------------------------|
 | Keyboard        | [Lily58 PRO V2](https://khor.store/products/lily58pro-2-0) (Khor Store) |
-| MCU             | RP2040 (Raspberry Pi Pico)                                              |
+| MCU             | RP2040                                               |
 | Split transport | Full-duplex serial — TX: GP0, RX: GP1                                   |
 | Display         | SSD1306 OLED (128×32, 270° rotation)                                    |
 | RGB             | WS2812 on GP11 (PIO1)                                                   |
