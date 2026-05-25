@@ -48,15 +48,15 @@ The Lily58 PRO V2 PCB has no dedicated VBUS sense pin, which prevents reliable c
 
 ---
 
-## Layer Structure
+## Layer Naming Structure
 
 | Layer | Name  | Access           | Purpose                          |
 | ----- | ----- | ---------------- | -------------------------------- |
 | 0     | BASE  | —                | QWERTY                           |
-| 1     | NUMFN | LT (Space hold)  | Numbers (right) + F-keys (left)  |
+| 1     | NUM   | LT (Space hold)  | Numbers (right) + F-keys (left)  |
 | 2     | NAV   | LT (Enter hold)  | Navigation + one-hand modifiers  |
 | 3     | SYM   | MO (pinky)       | Symbols                          |
-| 4     | MOUSE | TG from NUMFN    | Mouse movement                   |
+| 4     | MAUS  | TG from NUMFN    | Mouse movement                   |
 | 5     | SYS   | —                | Reserved                         |
 
 ---
