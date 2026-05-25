@@ -1,6 +1,6 @@
-# Lily58 Vial Firmware
+# Lily58 Pro (V2) Vial Firmware
 
-> This Firmware is based off the base firmware provided by [Khor](https://khor.dev) for his revision of the Lily58 Pro.
+> This Firmware is based off the base firmware provided by [Khor](https://khor.dev) for his revision of the Lily58 Pro V2.
 
 ## Hardware
 
