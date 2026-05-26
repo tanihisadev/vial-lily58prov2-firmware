@@ -62,7 +62,7 @@ The output file will be at `~/vial-qmk/lily58prov2_vial.uf2`.
 
 ## Known Hardware Issue
 
-The Lily58 PRO V2 PCB has no dedicated VBUS sense pin, which prevents reliable cold-boot handedness detection in firmware. A `SPLIT_WATCHDOG_ENABLE` workaround is in place — on cold boot the keyboard takes a few seconds to reset and establish the split link correctly.
+The Lily58 PRO V2 PCB has an issue with VBUS sense detection, which prevents reliable cold-boot handedness detection in firmware. A `SPLIT_WATCHDOG_ENABLE` workaround is in place — on cold boot the keyboard takes a few seconds to reset and establish the split link correctly. However, newer versions of this PCB will not have the same issue and thus this workaround will not be necessary.
 
 ---
 
