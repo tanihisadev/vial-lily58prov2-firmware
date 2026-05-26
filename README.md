@@ -14,6 +14,43 @@
 | Matrix          | 5 rows × 6 cols per side, COL2ROW                                       |
 
 ---
+ 
+## Building
+ 
+### Prerequisites
+ 
+**Arch / CachyOS:**
+```bash
+sudo pacman -S arm-none-eabi-gcc arm-none-eabi-newlib python python-pip git
+pip install qmk --break-system-packages
+```
+ 
+### Setup
+ 
+Clone the vial-qmk fork — **do not use mainline QMK**, it does not include Vial support:
+ 
+```bash
+git clone https://github.com/vial-kb/vial-qmk.git --recurse-submodules ~/vial-qmk
+cd ~/vial-qmk
+pip install -r requirements.txt --break-system-packages
+```
+ 
+Copy the keyboard definition into the vial-qmk keyboards directory:
+ 
+```bash
+cp -r /path/to/lily58prov2 ~/vial-qmk/keyboards/lily58prov2
+```
+ 
+### Compile
+ 
+```bash
+cd ~/vial-qmk
+qmk compile -kb lily58prov2 -km vial
+```
+ 
+The output file will be at `~/vial-qmk/lily58prov2_vial.uf2`.
+ 
+---
 
 ## Flashing
 
